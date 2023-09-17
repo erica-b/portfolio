@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 // import "../index.css";
 
 const imageFolderPath = "../src/assets";
+
 export default function Portfolio() {
   return (
     <>
@@ -16,23 +17,23 @@ export default function Portfolio() {
       </div>
 
       <div className="m-12">
-      <h1 className="mb-12">My Projects</h1>
+        <h1 className="mb-12">My Projects</h1>
         <ul className="list-none">
-          
           <li className="inline-block">
-            <Link to="/Contact">
-            <img
-              src={`${imageFolderPath}/SoundVault.png`}
-              alt="title"
-              className="object-scale-down w-1/2 inline-block hover:opacity-50" 
-            />
+            <Link to="/SoundVault">
+              <img
+                src={`${imageFolderPath}/SoundVault.png`}
+                alt="title"
+                className="object-scale-down w-1/2 inline-block hover:opacity-50"
+              />
             </Link>
-      
-             <img
-              src={`${imageFolderPath}/MagicEightBall.png`}
-              alt="title"
-              className="object-scale-down w-1/2  inline-block hover:opacity-50"
-            />
+            <Link to="/MagicEightBall">
+              <img
+                src={`${imageFolderPath}/MagicEightBall.png`}
+                alt="title"
+                className="object-scale-down w-1/2  inline-block hover:opacity-50"
+              />
+            </Link>
           </li>
         </ul>
       </div>

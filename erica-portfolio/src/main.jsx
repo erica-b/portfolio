@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Projects from './Components/Projects.jsx';
 import Index from './Components/Index.jsx';
 import Contact from './Components/Contact.jsx'
+import SoundVault from './Components/SoundVault.jsx'
+import MagicEightBall from './Components/MagicEightBall.jsx'
 
 
 const router = createBrowserRouter([
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
   {
     path: '/Contact',
     element: <Contact />
+  },
+  {
+    path: '/SoundVault',
+    element: <SoundVault />
+  },
+  {
+    path: '/MagicEightBall',
+    element: <MagicEightBall />
   }
 ]);
 
