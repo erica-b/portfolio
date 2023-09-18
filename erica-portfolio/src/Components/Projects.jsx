@@ -13,7 +13,7 @@ export default function Portfolio() {
           Projects
         </a>
         <a href="/Contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="/About">About</a>
       </div>
 
       <div className="m-12">
@@ -24,14 +24,23 @@ export default function Portfolio() {
               <img
                 src={`${imageFolderPath}/SoundVault.png`}
                 alt="title"
-                className="object-scale-down w-1/2 inline-block hover:opacity-50"
+                className="object-scale-down w-1/2 inline-block hover:opacity-50 px-3"
               />
             </Link>
             <Link to="/MagicEightBall">
               <img
                 src={`${imageFolderPath}/MagicEightBall.png`}
                 alt="title"
-                className="object-scale-down w-1/2  inline-block hover:opacity-50"
+                className="object-scale-down w-1/2  inline-block hover:opacity-50 px-3"
+              />
+            </Link>
+          </li>
+          <li className="">
+          <Link to="/TuneTycoon">
+              <img
+                src={`${imageFolderPath}/tune-tycoon.png`}
+                alt="title"
+                className="object-scale-down w-1/2  inline-block hover:opacity-50 px-3 py-6"
               />
             </Link>
           </li>
