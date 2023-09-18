@@ -46,7 +46,13 @@ export default function Portfolio() {
 
           <li className="m-6">
             <a href="https://magic-eight-ball11.onrender.com/" target="_blank">
-              <button>View Magic Eight Ball</button>
+              <button>Preview Magic Eight Ball</button>
+            </a>
+          </li>
+
+          <li className="m-6">
+            <a href="https://github.com/erica-b/magic-eight-ball/blob/main/README.md" target="_blank">
+              <button>Magic Eight Ball GitHub</button>
             </a>
           </li>
 

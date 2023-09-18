@@ -22,13 +22,17 @@ export default function Portfolio() {
           <li className="m-6">
             <p className="mb-6">
               <em>
-                <strong>Technologies used: </strong> JavaScript, Bootstrap, CSS, HTML, Genius API.
+                <strong>Technologies used: </strong> JavaScript, Bootstrap, CSS,
+                HTML, Genius API.
               </em>
             </p>
             <p>
-            Can you guess which song is more popular? Play Tune Tycoon and test your knowledge of music popularity. Inspired by classic higher-or-lower games, Tune Tycoon uses data from the Genius API, presents two options, and challenges you to select which was more popular.
+              Can you guess which song is more popular? Play Tune Tycoon and
+              test your knowledge of music popularity. Inspired by classic
+              higher-or-lower games, Tune Tycoon uses data from the Genius API,
+              presents two options, and challenges you to select which was more
+              popular.
             </p>
-        
           </li>
           <li>
             <img
@@ -43,7 +47,16 @@ export default function Portfolio() {
               href="https://dkd03813.github.io/HigherOrLowerGame/"
               target="_blank"
             >
-              <button>View Tune Tycoon</button>
+              <button>Preview Tune Tycoon</button>
+            </a>
+          </li>
+
+          <li className="m-6">
+            <a
+              href="https://github.com/dkd03813/HigherOrLowerGame"
+              target="_blank"
+            >
+              <button>Tune Tycoon on GitHub</button>
             </a>
           </li>
 

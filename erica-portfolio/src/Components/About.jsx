@@ -47,12 +47,14 @@ export default function Contact() {
           </li>
 
           <li className="mt-6">
-            <a href={`${imageFolderPath}/Resume-DigitalCrafts-Erica-Bitting.pdf`} download>
+            <a
+              href={`${imageFolderPath}/Erica-Bitting-Software-Developer-Resume.pdf`}
+              download
+            >
               {/*  PUT RESUME FILE ABOVE HERE */}
               <button>My Resume</button>
             </a>
           </li>
-
         </ul>
       </div>
     </>

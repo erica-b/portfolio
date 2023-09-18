@@ -46,9 +46,17 @@ export default function Portfolio() {
 
           <li className="m-6">
             <a href="https://soundvault-uw41.onrender.com/" target="_blank">
-              <button>View SoundVault</button>
+              <button>Preview SoundVault</button>
             </a>
           </li>
+            
+          <li className="m-6">
+            <a href="https://github.com/erica-b/SoundVault" target="_blank">
+              <button>SoundVault GitHub</button>
+            </a>
+          </li>
+
+
 
           <li className="m-6">
             <form action="/projects">
