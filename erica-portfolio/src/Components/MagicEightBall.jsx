@@ -22,7 +22,7 @@ export default function Portfolio() {
           <li className="m-6">
             <p className="mb-6">
               <em>
-                <strong>Languages: </strong>React.js
+                <strong>Languages: </strong>React.js, JavaScript, CSS, HTML.
               </em>
             </p>
             <p className="mb-6">
