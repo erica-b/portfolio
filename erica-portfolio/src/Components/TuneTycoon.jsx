@@ -17,36 +17,33 @@ export default function Portfolio() {
       </div>
 
       <div className="m-12">
-        <h1 className="project">SoundVault</h1>
+        <h1 className="project">Tune Tycoon</h1>
         <ul className="list-none">
           <li className="m-6">
             <p className="mb-6">
               <em>
-                <strong>Technologies used: </strong> full stack CRUD app using Node.js, Express, PostgreSQL, JavaScript, JWT, EJS Templating, Bootstrap, CSS, HTML. 
+                <strong>Technologies used: </strong> JavaScript, Bootstrap, CSS, HTML, Genius API.
               </em>
             </p>
             <p>
-            Like Goodreads for music, register an account and save your favorite music to your profile page. Login
-              to add your favorite songs, artists, and albums to your profile. Remember all the albums you've listened to and show them off to friends. 
+            Can you guess which song is more popular? Play Tune Tycoon and test your knowledge of music popularity. Inspired by classic higher-or-lower games, Tune Tycoon uses data from the Genius API, presents two options, and challenges you to select which was more popular.
             </p>
-            {/* <p>
-              Explore a vast collection of music from various genres and
-              artists. Register and create your personalized{" "}
-              <strong>SoundVault</strong> to keep track of your favorites. Login
-              to add your favorite songs, artists, and albums to your profile.
-            </p> */}
+        
           </li>
           <li>
             <img
-              src={`${imageFolderPath}/SoundVault.png`}
+              src={`${imageFolderPath}/tune-tycoon.png`}
               alt="title"
               className="object-scale-down w-1/2 inline-block "
             />
           </li>
 
           <li className="m-6">
-            <a href="https://soundvault-uw41.onrender.com/" target="_blank">
-              <button>View SoundVault</button>
+            <a
+              href="https://dkd03813.github.io/HigherOrLowerGame/"
+              target="_blank"
+            >
+              <button>View Tune Tycoon</button>
             </a>
           </li>
 

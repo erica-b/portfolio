@@ -26,14 +26,14 @@ export default function Contact() {
       <div class="topnav">
         <a href="/">Home</a>
         <a href="/Projects">Projects</a>
-        <a class="active" href="/Contact">
-          Contact
+        <a href="/Contact">Contact</a>
+        <a class="active" href="/About">
+          About
         </a>
-        <a href="/About">About</a>
       </div>
       <div className="m-12">
-        <h1 className="mt-12 mb-6">Let's connect!</h1>
-        <p className="mb-6">Connect with me on Linkedin, checkout my Github, or email me. </p>
+        <h1 className="mt-12 mb-6">About Erica</h1>
+        <p className="mb-6">Software Developer. Designer. Artist.</p>
         <ul className="list-none">
           <li className="">
             <a href="https://www.linkedin.com/in/erica-linked/" target="_blank">
@@ -46,23 +46,13 @@ export default function Contact() {
             </a>
           </li>
 
-          <li>
-            <a href="https://github.com/erica-b" target="_blank">
-              {" "}
-              <img
-                src={`${imageFolderPath}/2.png`}
-                alt="title"
-                className="object-scale-down w-1/12 inline-block hover:opacity-50 mt-2"
-              />
+          <li className="mt-6">
+            <a href={`${imageFolderPath}/Resume-DigitalCrafts-Erica-Bitting.pdf`} download>
+              {/*  PUT RESUME FILE ABOVE HERE */}
+              <button>My Resume</button>
             </a>
           </li>
 
-          <li className="mt-6">
-            <ButtonMailto
-              label="Email me"
-              mailto="mailto:ericabitting@gmail.com"
-            />
-          </li>
         </ul>
       </div>
     </>
