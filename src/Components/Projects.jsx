@@ -22,7 +22,7 @@ export default function Portfolio() {
           <li className="inline-block">
             <Link to="/SoundVault">
               <img
-                src={`${imageFolderPath}/SoundVault.png`}
+                src={`./${imageFolderPath}/SoundVault.png`}
                 alt="title"
                 className="object-scale-down w-1/2 inline-block hover:opacity-50 px-3"
               />

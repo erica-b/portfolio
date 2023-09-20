@@ -9,7 +9,7 @@
   font-weight: 400;
 
   /* this line below affects dark mode! */
-  color-scheme: light dark;
+  color-scheme: light;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
@@ -82,6 +82,20 @@
   }
   
     /* this line below affects dark mode! you can prefer dark light, just dark, or just light */
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #000000;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+      color: #000000;
+    }
+  }
+/* I repeated it below to make dark mode not exist */
   @media (prefers-color-scheme: dark) {
     :root {
       color: #000000;
