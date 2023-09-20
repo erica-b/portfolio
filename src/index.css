@@ -82,7 +82,7 @@
   }
   
     /* this line below affects dark mode! you can prefer dark light, just dark, or just light */
-  @media (prefers-color-scheme: light) {
+  @media (prefers-color-scheme: dark) {
     :root {
       color: #000000;
       background-color: #ffffff;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // import "../index.css";
 
-const imageFolderPath = "../src/assets";
+const imageFolderPath = "../public/assets";
 
 export default function Portfolio() {
   return (
