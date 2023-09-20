@@ -3,6 +3,8 @@ import "../App.css";
 import "../index.css";
 import {Link} from "react-router-dom";
 
+const a = "1";
+
 export default function Index() {
   // const [count, setCount] = useState(0)
 
