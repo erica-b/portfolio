@@ -3,7 +3,11 @@ import "../App.css";
 import "../index.css";
 import {Link} from "react-router-dom";
 
-const a = "1";
+// to run on local host you must have line 7 instead of line 8 
+// const imageFolderPath = "../public/assets";
+// to run on render, the dist file only has assets folder so it needs this revised line (check each component to make sure)
+
+const imageFolderPath = "./assets";
 
 export default function Index() {
   // const [count, setCount] = useState(0)

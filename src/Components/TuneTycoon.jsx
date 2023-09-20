@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // import "../index.css";
 
-const imageFolderPath = "../public/assets";
+// to run on local host you must have line 6 instead of line 8 
+// const imageFolderPath = "../public/assets";
+// to run on render, the dist file only has assets folder so it needs this revised line (check each component to make sure)
+const imageFolderPath = "./assets";
 
 export default function Portfolio() {
   return (
