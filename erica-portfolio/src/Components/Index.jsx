@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 import "../index.css";
+import {Link} from "react-router-dom";
 
 export default function Index() {
   // const [count, setCount] = useState(0)
@@ -16,9 +17,9 @@ export default function Index() {
             <p className="read-the-docs">Welcome to my portfolio.</p>
           </li>
           <li>
-            <form action="/projects">
+            <Link to="/projects">
               <button>See more</button>
-            </form>
+            </Link>
           </li>
         </ul>
       </div>
