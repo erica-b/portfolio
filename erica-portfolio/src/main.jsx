@@ -15,12 +15,12 @@ import TuneTycoon from './Components/TuneTycoon.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/projects',
-    element: <Projects />
-  },
-  {
     path: '/',
     element: <Index />
+  },
+  {
+    path: '/projects',
+    element: <Projects />
   },
   {
     path: '/Contact',
@@ -46,7 +46,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
     <RouterProvider router={router}/>
   </React.StrictMode>,
 )
