@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+const a = 1;
 
 import Projects from './Components/Projects.jsx';
 import Index from './Components/Index.jsx';
