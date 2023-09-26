@@ -37,6 +37,9 @@ export default function Contact() {
       <div className="m-12">
         <h1 className="mt-12 mb-6">About Erica</h1>
         <p className="mb-6">Software Developer. Designer. Artist.</p>
+        <p className="mb-6">
+         <strong> Skills & Technologies: </strong><em>Debugging, JavaScript, Node.js, React, Express, Redux, PostgreSQL, Sequelize, Bootstrap, Tailwind CSS, Flexbox, Render Deploying, HTML, CSS, Adobe Creative Cloud Suite.</em>
+        </p>
         <ul className="list-none">
           <li className="">
             <a href="https://www.linkedin.com/in/erica-linked/" target="_blank">

@@ -25,19 +25,13 @@ export default function Portfolio() {
           <li className="m-6">
             <p className="mb-6">
               <em>
-                <strong>Technologies used: </strong> full stack CRUD app using Node.js, Express, PostgreSQL, JavaScript, JWT, EJS Templating, Bootstrap, CSS, HTML. 
-              </em>
+                <strong>Technologies used: </strong> Full stack application built with React, Node.js, Express, PostgreSQL, Bootstrap, CSS, and HTML.
+            </em>
             </p>
             <p>
             Like Goodreads for music, register an account and save your favorite music to your profile page. Login
               to add your favorite songs, artists, and albums to your profile. Remember all the albums you've listened to and show them off to friends. 
             </p>
-            {/* <p>
-              Explore a vast collection of music from various genres and
-              artists. Register and create your personalized{" "}
-              <strong>SoundVault</strong> to keep track of your favorites. Login
-              to add your favorite songs, artists, and albums to your profile.
-            </p> */}
           </li>
           <li>
             <img
