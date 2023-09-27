@@ -21,11 +21,11 @@ export default function Index() {
             <h1>Erica Bitting</h1>
           </li>
           <li>
-            <p className="read-the-docs">Welcome to my portfolio.</p>
+            <p className="read-the-docs">So glad you're here!</p>
           </li>
           <li>
             <Link to="/projects">
-              <button>See more</button>
+              <button>Portfolio</button>
             </Link>
           </li>
         </ul>

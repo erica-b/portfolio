@@ -22,7 +22,7 @@ export default function Portfolio() {
       <div className="m-12">
         <h1 className="mb-12">My Projects</h1>
         <ul className="list-none">
-          <li className="inline-block">
+          <li className="">
             <Link to="/SoundVault">
               <img
                 src={`${imageFolderPath}/SoundVault.png`}
@@ -34,7 +34,7 @@ export default function Portfolio() {
               <img
                 src={`${imageFolderPath}/MagicEightBall.png`}
                 alt="title"
-                className="object-scale-down w-1/2  inline-block hover:opacity-50 px-3"
+                className="object-scale-down w-1/2 inline-block hover:opacity-50 px-3"
               />
             </Link>
           </li>
@@ -43,7 +43,7 @@ export default function Portfolio() {
               <img
                 src={`${imageFolderPath}/tune-tycoon.png`}
                 alt="title"
-                className="object-scale-down w-1/2  inline-block hover:opacity-50 px-3 py-6"
+                className="object-scale-down w-1/2 inline-block hover:opacity-50 px-3 py-6"
               />
             </Link>
           </li>

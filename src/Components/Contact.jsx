@@ -36,6 +36,7 @@ export default function Contact() {
       </div>
       <div className="m-12">
         <h1 className="mt-12 mb-6">Let's connect!</h1>
+        <p className="mb-6">Currently located in Atlanta, Georgia.</p>
         <p className="mb-6">Connect with me on Linkedin, checkout my Github, or email me. </p>
         <ul className="list-none">
           <li className="">
@@ -44,7 +45,7 @@ export default function Contact() {
               <img
                 src={`${imageFolderPath}/1.png`}
                 alt="title"
-                className="object-scale-down w-1/12 inline-block hover:opacity-50"
+                className="object-scale-down w-32 inline-block hover:opacity-50"
               />{" "}
             </a>
           </li>
@@ -55,7 +56,7 @@ export default function Contact() {
               <img
                 src={`${imageFolderPath}/2.png`}
                 alt="title"
-                className="object-scale-down w-1/12 inline-block hover:opacity-50 mt-2"
+                className="object-scale-down w-32 inline-block hover:opacity-50 mt-2"
               />
             </a>
           </li>
