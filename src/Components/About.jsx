@@ -37,7 +37,8 @@ export default function Contact() {
       <div className="m-12">
         <h1 className="mt-12 mb-6">About Erica</h1>
         <p className="mb-6">Software Developer. Designer. Artist.</p>
-        <p className="mb-6">Hello! I'm Erica. I love to read, record music, and practice yoga. While working on web design as a communications director, I became curious and fell in love with full stack software development. I just graduated from DigitalCrafts bootcamp based in Atlanta. Check out my skills and resume!  </p>
+        <p className="mb-6">Hello! I'm Erica. I love to read, record music, and practice yoga. While working on web design as a communications director, I became curious and fell in love with full stack software development. I just graduated from DigitalCrafts bootcamp based in Atlanta. </p>
+        <p className="mb-6"><em>I built this portfolio website using React.js, Tailwind CSS, HTML, and CSS.</em></p>
         <p className="mb-6">
          <strong> Skills & Technologies: </strong><em>Debugging, JavaScript, Node.js, React, Express, Redux, PostgreSQL, Sequelize, Bootstrap, Tailwind CSS, Flexbox, Render Deploying, HTML, CSS, Adobe Creative Cloud Suite.</em>
         </p>
